@@ -27,6 +27,7 @@ function validateCreditCard(creditCardNum) {
   }
 }
 
+/* NB: I could not figure out this one: You must have at least two different digits represented (all of the digits cannot be the same) */
 /**** tests *****/
 console.log(validateCreditCard("9999777788880000")); //{ valid: true, number: '9999-7777-8888-0000' }
 console.log(validateCreditCard("6666666666661666")); //{ valid: true, number: '6666-6666-6666-1666' }
